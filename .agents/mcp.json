@@ -1,0 +1,20 @@
+{
+  "mcpServers": {
+    "context7": {
+      "serverUrl": "https://mcp.context7.com/mcp"
+    },
+    "vercel": {
+      "serverUrl": "https://mcp.vercel.com"
+    },
+    "github": {
+      "serverUrl": "https://api.githubcopilot.com/mcp/readonly"
+    },
+    "playwright": {
+      "command": "npx",
+      "args": ["-y", "@playwright/mcp@latest"]
+    },
+    "meta-whatsapp-business": {
+      "serverUrl": "https://mcp.facebook.com/whatsapp_business_tools"
+    }
+  }
+}
